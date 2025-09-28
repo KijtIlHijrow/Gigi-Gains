@@ -31,21 +31,21 @@
 - Based on Swift Package Manager layout from plan.md
 
 ## Phase 3.1: Setup & Foundation
-- [ ] T001 Create iOS project structure per implementation plan with Swift Package Manager
-- [ ] T002 Initialize Swift 5.10+ project with SwiftUI, Combine, XCTest, HealthKit, CloudKit dependencies in Package.swift
+- [X] T001 Create iOS project structure per implementation plan with Swift Package Manager
+- [X] T002 Initialize Swift 5.10+ project with SwiftUI, Combine, XCTest, HealthKit, CloudKit dependencies in Package.swift
 - [ ] T003 [P] Configure SwiftLint and SwiftFormat tools for code quality
-- [ ] T004 [P] Setup Core Data stack with NSPersistentCloudKitContainer in GigiGains/Sources/Managers/CoreDataStack.swift
+- [X] T004 [P] Setup Core Data stack with NSPersistentCloudKitContainer in GigiGains/Sources/Managers/CoreDataStack.swift
 - [ ] T005 [P] Configure HealthKit and CloudKit capabilities in project settings
 
 ## Phase 3.2: Tests First (TDD) ⚠️ MUST COMPLETE BEFORE 3.3
 **CRITICAL: These tests MUST be written and MUST FAIL before ANY implementation**
 
 ### Contract Tests [P] - Can run in parallel
-- [ ] T006 [P] Contract test WorkoutServiceProtocol in GigiGains/Tests/UnitTests/WorkoutServiceTests.swift
-- [ ] T007 [P] Contract test RoutineServiceProtocol in GigiGains/Tests/UnitTests/RoutineServiceTests.swift
-- [ ] T008 [P] Contract test ExerciseLibraryServiceProtocol in GigiGains/Tests/UnitTests/ExerciseLibraryServiceTests.swift
+- [X] T006 [P] Contract test WorkoutServiceProtocol in GigiGains/Tests/UnitTests/WorkoutServiceTests.swift
+- [X] T007 [P] Contract test RoutineServiceProtocol in GigiGains/Tests/UnitTests/RoutineServiceTests.swift
+- [X] T008 [P] Contract test ExerciseLibraryServiceProtocol in GigiGains/Tests/UnitTests/ExerciseLibraryServiceTests.swift
 - [ ] T009 [P] Contract test ProgressTrackingServiceProtocol in GigiGains/Tests/UnitTests/ProgressTrackingServiceTests.swift
-- [ ] T010 [P] Contract test HealthKitServiceProtocol in GigiGains/Tests/UnitTests/HealthKitServiceTests.swift
+- [X] T010 [P] Contract test HealthKitServiceProtocol in GigiGains/Tests/UnitTests/HealthKitServiceTests.swift
 - [ ] T011 [P] Contract test CloudSyncServiceProtocol in GigiGains/Tests/UnitTests/CloudSyncServiceTests.swift
 - [ ] T012 [P] Contract test NotificationServiceProtocol in GigiGains/Tests/UnitTests/NotificationServiceTests.swift
 - [ ] T013 [P] Contract test TimerManagerProtocol in GigiGains/Tests/UnitTests/TimerManagerTests.swift
@@ -54,8 +54,8 @@
 - [ ] T016 [P] Contract test ExerciseRepositoryProtocol in GigiGains/Tests/UnitTests/ExerciseRepositoryTests.swift
 
 ### Integration Tests [P] - Can run in parallel
-- [ ] T017 [P] Integration test first-time app setup & HealthKit permissions in GigiGains/Tests/IntegrationTests/FirstTimeSetupTests.swift
-- [ ] T018 [P] Integration test starting new workout & exercise logging in GigiGains/Tests/IntegrationTests/WorkoutLoggingTests.swift
+- [X] T017 [P] Integration test first-time app setup & HealthKit permissions in GigiGains/Tests/IntegrationTests/FirstTimeSetupTests.swift
+- [X] T018 [P] Integration test starting new workout & exercise logging in GigiGains/Tests/IntegrationTests/WorkoutLoggingTests.swift
 - [ ] T019 [P] Integration test rest timer usage & background notifications in GigiGains/Tests/IntegrationTests/RestTimerTests.swift
 - [ ] T020 [P] Integration test exercise history & progression tracking in GigiGains/Tests/IntegrationTests/ProgressionTrackingTests.swift
 - [ ] T021 [P] Integration test routine creation & reuse in GigiGains/Tests/IntegrationTests/RoutineManagementTests.swift

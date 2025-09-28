@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/master.swiftdeps"
+  },
+  "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Sources/GigiGains/Managers/CoreDataStack.swift": {
+    "dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/CoreDataStack.d",
+    "object": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/CoreDataStack.swift.o",
+    "swiftmodule": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/CoreDataStack~partial.swiftmodule",
+    "swift-dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/CoreDataStack.swiftdeps",
+    "diagnostics": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/CoreDataStack.dia"
+  }
+}

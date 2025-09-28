@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/master.swiftdeps"
+  },
+  "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/runner.d",
+    "object": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/runner.dia"
+  }
+}

@@ -1,0 +1,905 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.xctest/Contents/MacOS/GigiGainsPackageTests",
+      "packagePath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains",
+      "productName" : "GigiGainsPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.GigiGains-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/sources",
+      "importPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Sources/GigiGains/Managers/CoreDataStack.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GigiGains",
+      "moduleOutputPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules/GigiGains.swiftmodule",
+      "objects" : [
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/CoreDataStack.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/include/GigiGains-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "gigi_gains"
+      ],
+      "outputFileMapPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/CoreDataStack.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules/GigiGains.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Sources/GigiGains/Managers/CoreDataStack.swift"
+      ],
+      "tempsPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.GigiGainsIntegrationTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsIntegrationTests.build/sources",
+      "importPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsIntegrationTests/FirstTimeSetupTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsIntegrationTests/WorkoutLoggingTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules/GigiGains.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsIntegrationTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GigiGainsIntegrationTests",
+      "moduleOutputPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules/GigiGainsIntegrationTests.swiftmodule",
+      "objects" : [
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsIntegrationTests.build/FirstTimeSetupTests.swift.o",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsIntegrationTests.build/WorkoutLoggingTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "gigi_gains"
+      ],
+      "outputFileMapPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsIntegrationTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsIntegrationTests.build/FirstTimeSetupTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsIntegrationTests.build/WorkoutLoggingTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules/GigiGainsIntegrationTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsIntegrationTests/FirstTimeSetupTests.swift",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsIntegrationTests/WorkoutLoggingTests.swift"
+      ],
+      "tempsPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsIntegrationTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.GigiGainsPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/sources",
+      "importPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules/GigiGainsTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules/GigiGainsIntegrationTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GigiGainsPackageTests",
+      "moduleOutputPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules/GigiGainsPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/include/GigiGainsPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "gigi_gains"
+      ],
+      "outputFileMapPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules/GigiGainsPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.GigiGainsTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/sources",
+      "importPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/ExerciseLibraryServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/HealthKitServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/RoutineServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/WorkoutServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules/GigiGains.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GigiGainsTests",
+      "moduleOutputPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules/GigiGainsTests.swiftmodule",
+      "objects" : [
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/ExerciseLibraryServiceTests.swift.o",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/HealthKitServiceTests.swift.o",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/RoutineServiceTests.swift.o",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/WorkoutServiceTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "gigi_gains"
+      ],
+      "outputFileMapPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/ExerciseLibraryServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/HealthKitServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/RoutineServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/WorkoutServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules/GigiGainsTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/ExerciseLibraryServiceTests.swift",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/HealthKitServiceTests.swift",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/RoutineServiceTests.swift",
+        "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/WorkoutServiceTests.swift"
+      ],
+      "tempsPath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "GigiGains" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GigiGains",
+      "-package-name",
+      "gigi_gains",
+      "-c",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Sources/GigiGains/Managers/CoreDataStack.swift",
+      "-I",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/include/GigiGains-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "gigi_gains",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "GigiGainsIntegrationTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GigiGainsIntegrationTests",
+      "-package-name",
+      "gigi_gains",
+      "-c",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsIntegrationTests/FirstTimeSetupTests.swift",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsIntegrationTests/WorkoutLoggingTests.swift",
+      "-I",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "gigi_gains",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "GigiGainsPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GigiGainsPackageTests",
+      "-package-name",
+      "gigi_gains",
+      "-c",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/include/GigiGainsPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "gigi_gains",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "GigiGainsTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GigiGainsTests",
+      "-package-name",
+      "gigi_gains",
+      "-c",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/ExerciseLibraryServiceTests.swift",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/HealthKitServiceTests.swift",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/RoutineServiceTests.swift",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/WorkoutServiceTests.swift",
+      "-I",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "gigi_gains",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "GigiGains" : [
+
+    ],
+    "GigiGainsIntegrationTests" : [
+      "GigiGains"
+    ],
+    "GigiGainsPackageTests" : [
+      "GigiGainsIntegrationTests",
+      "GigiGainsTests",
+      "GigiGains"
+    ],
+    "GigiGainsTests" : [
+      "GigiGains"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Sources/GigiGains/Managers/CoreDataStack.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/sources"
+    },
+    "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsIntegrationTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsIntegrationTests/FirstTimeSetupTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsIntegrationTests/WorkoutLoggingTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsIntegrationTests.build/sources"
+    },
+    "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/sources"
+    },
+    "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGains.build/CoreDataStack.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsIntegrationTests.build/FirstTimeSetupTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsIntegrationTests.build/WorkoutLoggingTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/ExerciseLibraryServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/HealthKitServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/RoutineServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/WorkoutServiceTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/ExerciseLibraryServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/HealthKitServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/RoutineServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/WorkoutServiceTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/sources"
+    },
+    "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

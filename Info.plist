@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- App Identification -->
+	<key>CFBundleIdentifier</key>
+	<string>com.gigagains.app</string>
+	<key>CFBundleName</key>
+	<string>Gigi Gains</string>
+	<key>CFBundleDisplayName</key>
+	<string>Gigi Gains</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+
+	<!-- Platform Support -->
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+
+	<!-- Deployment Target -->
+	<key>MinimumOSVersion</key>
+	<string>15.0</string>
+
+	<!-- Interface Configuration -->
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+
+	<!-- Modern UI Configuration -->
+	<key>UISceneDelegate</key>
+	<true/>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+
+	<!-- HealthKit Integration -->
+	<key>NSHealthShareUsageDescription</key>
+	<string>Gigi Gains uses HealthKit to import your workout data from other fitness apps and track your heart rate during workouts. This helps provide accurate calorie estimates and comprehensive fitness tracking. Your health data remains private and is never shared with third parties.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Gigi Gains saves your completed workouts to Apple Health so you can see all your fitness data in one place. This includes workout duration, exercises performed, calories burned, and training volume. Your workout data is stored securely in Apple Health and remains under your control.</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>healthkit</string>
+	</array>
+
+	<!-- Notification Permissions -->
+	<key>NSUserNotificationUsageDescription</key>
+	<string>Gigi Gains sends notifications to alert you when your rest timer completes, remind you about scheduled workouts, and celebrate your personal records. Notifications help you stay motivated and consistent with your training routine.</string>
+
+	<!-- Background Processing -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>background-processing</string>
+		<string>background-app-refresh</string>
+	</array>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.gigagains.app.sync</string>
+		<string>com.gigagains.app.healthkit-export</string>
+	</array>
+
+	<!-- CloudKit Configuration -->
+	<key>NSUbiquitousContainers</key>
+	<dict>
+		<key>iCloud.com.gigagains.app</key>
+		<dict>
+			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
+			<false/>
+			<key>NSUbiquitousContainerName</key>
+			<string>Gigi Gains</string>
+			<key>NSUbiquitousContainerSupportedFolderLevels</key>
+			<string>Any</string>
+		</dict>
+	</dict>
+
+	<!-- Network Configuration -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+
+	<!-- Privacy and Data Protection -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<string>CA92.1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<string>C617.1</string>
+			</array>
+		</dict>
+	</array>
+
+	<!-- App Categories -->
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.healthcare-fitness</string>
+
+	<!-- URL Schemes -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.gigagains.app</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>gigagains</string>
+			</array>
+		</dict>
+	</array>
+
+	<!-- Accessibility -->
+	<key>UIAccessibilityContainerType</key>
+	<string>None</string>
+	<key>UISupportsDocumentBrowser</key>
+	<false/>
+
+	<!-- App Store Configuration -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSBonjourServices</key>
+	<array/>
+
+	<!-- Development Configuration -->
+	<key>UIFileSharingEnabled</key>
+	<false/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<false/>
+
+	<!-- Performance Configuration -->
+	<key>UIPrerenderedIcon</key>
+	<false/>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+
+	<!-- Siri and Shortcuts -->
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>com.gigagains.app.start-workout</string>
+		<string>com.gigagains.app.view-progress</string>
+	</array>
+
+	<!-- Widget Configuration -->
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>IntentsSupported</key>
+			<array>
+				<string>StartWorkoutIntent</string>
+				<string>ViewProgressIntent</string>
+			</array>
+		</dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.intents-service</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>$(PRODUCT_MODULE_NAME).IntentHandler</string>
+	</dict>
+
+	<!-- Export Compliance -->
+	<key>ITSEncryptionExportComplianceCode</key>
+	<string>NO</string>
+
+	<!-- Localization -->
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+	</array>
+
+	<!-- Hardware Requirements -->
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+		<string>healthkit</string>
+	</array>
+
+	<!-- System Permissions Summary -->
+	<key>NSPrivacyManifest</key>
+	<dict>
+		<key>NSPrivacyTrackingDomains</key>
+		<array/>
+		<key>NSPrivacyTracking</key>
+		<false/>
+		<key>NSPrivacyCollectedDataTypes</key>
+		<array>
+			<dict>
+				<key>NSPrivacyCollectedDataType</key>
+				<string>NSPrivacyCollectedDataTypeHealthAndFitness</string>
+				<key>NSPrivacyCollectedDataTypeLinked</key>
+				<false/>
+				<key>NSPrivacyCollectedDataTypeTracking</key>
+				<false/>
+				<key>NSPrivacyCollectedDataTypePurposes</key>
+				<array>
+					<string>NSPrivacyCollectedDataTypePurposeAppFunctionality</string>
+					<string>NSPrivacyCollectedDataTypePurposeAnalytics</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+
+	<!-- Status Bar Configuration -->
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+
+</dict>
+</plist>

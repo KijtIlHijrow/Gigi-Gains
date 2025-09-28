@@ -1,0 +1,33 @@
+{
+  "": {
+    "swift-dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/master.swiftdeps"
+  },
+  "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/ExerciseLibraryServiceTests.swift": {
+    "dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/ExerciseLibraryServiceTests.d",
+    "object": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/ExerciseLibraryServiceTests.swift.o",
+    "swiftmodule": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/ExerciseLibraryServiceTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/ExerciseLibraryServiceTests.swiftdeps",
+    "diagnostics": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/ExerciseLibraryServiceTests.dia"
+  },
+  "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/HealthKitServiceTests.swift": {
+    "dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/HealthKitServiceTests.d",
+    "object": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/HealthKitServiceTests.swift.o",
+    "swiftmodule": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/HealthKitServiceTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/HealthKitServiceTests.swiftdeps",
+    "diagnostics": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/HealthKitServiceTests.dia"
+  },
+  "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/RoutineServiceTests.swift": {
+    "dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/RoutineServiceTests.d",
+    "object": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/RoutineServiceTests.swift.o",
+    "swiftmodule": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/RoutineServiceTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/RoutineServiceTests.swiftdeps",
+    "diagnostics": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/RoutineServiceTests.dia"
+  },
+  "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/Tests/GigiGainsTests/UnitTests/WorkoutServiceTests.swift": {
+    "dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/WorkoutServiceTests.d",
+    "object": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/WorkoutServiceTests.swift.o",
+    "swiftmodule": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/WorkoutServiceTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/WorkoutServiceTests.swiftdeps",
+    "diagnostics": "/Users/keith.ruggier/Library/Mobile Documents/com~apple~CloudDocs/Gigi Gains/.build/arm64-apple-macosx/debug/GigiGainsTests.build/WorkoutServiceTests.dia"
+  }
+}
